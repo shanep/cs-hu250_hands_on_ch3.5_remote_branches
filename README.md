@@ -112,14 +112,14 @@ C0 -- C1 ------ C3 ---- | ------------------------------------- | -------- C9 --
 ## Step 10
 Run the following command to create a new remote (`nullptrforked`) to the repository that was modified by author `gitbotforked`.
 ```bash
-$ git remote add nullptrforked git@nullptr.boisestate.edu:cs-hu250_hands_on_ch3.5_remote_branches_forked
+$ git remote add nullptrforked https://github.com/shanep/cs-hu250_hands_on_ch3.5_remote_branches_forked
 $ git remote -v
 ```
 The last command should indicate that there are two remotes in your repository.
 
 ## Step 11
 Run the following commands:
-* to retrieve (`fetch`) the branches and commits that are available in the `nullptrforked` remote and 
+* to retrieve (`fetch`) the branches and commits that are available in the `nullptrforked` remote and
 * to see the effects of the `fetch` command.
 ```bash
 $ git branch -avv
